@@ -15,7 +15,8 @@ Purpose:
     course page.
     
 Usage:
-    Use with controller.php
+    Navigate to any video of a LinkedIn Learning course and paste
+    this code into the browser developer console and hit enter to run.
 
 Sample results: 
 
