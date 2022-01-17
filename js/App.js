@@ -32,5 +32,18 @@ Demonstrates:
 
 */
 
-console.log("HELLO!");
+console.log("HELLO!   I'm in App.js");
 
+// get chapter vids
+const chapters = document.querySelectorAll('.classroom-toc-section__toggle-title');
+[...chapters].forEach((el, i) => {
+   console.log(el.innerText);
+});
+
+console.log("~~~ ~~~ ~~~");
+
+// get sub-chapter vids
+const subchaps = document.querySelectorAll('.classroom-toc-item__title');
+[...subchaps].forEach((el, i) => {
+   console.log(el.innerText);
+});
