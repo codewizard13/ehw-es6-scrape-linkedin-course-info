@@ -1,7 +1,7 @@
 /*
 Program Name:   EHW APP: Scrape LinkedIn Course Info
 File Name:      ehw.lib.js
-Date Created:   01/16/22
+Date Created:   01/17/22
 Date Modified:  --
 Version:        1.00
 Programmer:     Eric L. Hepperle

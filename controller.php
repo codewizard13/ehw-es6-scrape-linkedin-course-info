@@ -11,7 +11,7 @@ a markdown notetaking framework for the course";
 Project Name:   <?php echo $page_title . "\n" ?>
 Proj Shortname: <?php echo $prj_shortname; ?> 
 Filename:       controller.php
-Date Created:   01/16/22
+Date Created:   01/17/22
 Date Updated:   --
 Programmer:     Eric Hepperle
 

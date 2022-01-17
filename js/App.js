@@ -1,7 +1,7 @@
 /*
-Program Name:   EHW JavaScript ES6 Demo: JSON Video Publishing Config Object
+Program Name:   EHW APP: Scrape LinkedIn Course Info
 File Name:      App.js
-Date Created:   01/14/22
+Date Created:   01/17/22
 Date Modified:  --
 Version:        1.00
 Programmer:     Eric L. Hepperle
@@ -29,14 +29,6 @@ Demonstrates:
     * Vanilla JavaScript
     * JavaScript ES6/ECMAScript2015
 
-*/
-
-
-/*
-This is a demo by Eric L. Hepperle which demonstrates 
-storing and retrieving data from JSON/JavaScript objects.
-The main object stores info about Eric's websites and digital/online
-properties and brands.
 */
 
 console.log("HELLO!");
