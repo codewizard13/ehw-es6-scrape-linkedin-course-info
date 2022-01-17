@@ -29,15 +29,6 @@ Demonstrates:
 
 Future:
     * Use fetch API or CURL to grab webpage content with controller.php
-
-*/
-
-
-/*
-This is a demo by Eric L. Hepperle which demonstrates 
-storing and retrieving data from JSON/JavaScript objects.
-The main object stores info about Eric's websites and digital/online
-properties and brands.
 */
 
 var data = {
