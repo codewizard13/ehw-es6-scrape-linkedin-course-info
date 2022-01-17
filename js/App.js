@@ -53,7 +53,7 @@ const subchaps = document.querySelectorAll('.classroom-toc-item__title');
 const menu = document.querySelector('.classroom-layout__sidebar');
 const menu_sec_sel = '.classroom-toc-section';
 const menu_ch_sel = '.classroom-toc-section__toggle-title';
-const menu_sub_sel = '';
+const menu_sub_sel = '.classroom-toc-item__title';
 
 const menu_sections = menu.querySelectorAll(menu_sec_sel);
 console.log(menu_sections.length);
@@ -64,13 +64,31 @@ console.log(menu_sections.length);
 
    var chapter = sec.querySelector(menu_ch_sel);
    console.log('~~~ ~~~ ~~~');
-   //console.log(chapters);
+   console.log(chapter.innerText);
 
-   var subchaps = sec.querySelectorAll('.classroom-toc-item__title');
+   var subchaps = sec.querySelectorAll(menu_sub_sel);
 
    [...subchaps].forEach((sub, j) => {
        //console.log(sub.innerText);
-       var sub_txt = sub.innerText.split("(Viewed)")[0];
+       var sub_txt = sub.innerText.split("(Viewed)")[0].trim();
        console.log(`[${sub_txt}]`);
    });
 });
+
+// Get rest of info
+const course_title = '';
+const instr_name = '';
+const instr_avatar = '';
+const instr_headline = '';
+const instr_follow_url = '';
+
+// Course details
+const course_duration = '';
+const course_level = '';
+const release_date = '';
+const course_rating_num = '';
+const course_stars = '';
+const course_descr = '';
+
+const objectives = '';
+const skills = '';
