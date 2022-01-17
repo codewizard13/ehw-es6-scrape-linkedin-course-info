@@ -6,13 +6,10 @@ Date Modified:  --
 Version:        1.00
 Programmer:     Eric L. Hepperle
 
-TAGS:           Eric Hepperle, JavaScript, ES6, DOM Manipulation, Demo, Eric L. Hepperle
+TAGS:           Eric Hepperle, JavaScript, ES6, DOM Manipulation, App, Eric L. Hepperle
 
 Purpose: 
-    This JavaScript file contains the main "business logic" and primary
-    mechanics of the current project. This project scrapes 
-    a selection of useful course info from a LinkedIn Learning
-    course page.
+    This JavaScript file is a LIBRARY of helper functions.
     
 Usage:
     Use with controller.php
