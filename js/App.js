@@ -52,18 +52,25 @@ const subchaps = document.querySelectorAll('.classroom-toc-item__title');
 */
 const menu = document.querySelector('.classroom-layout__sidebar');
 const menu_sec_sel = '.classroom-toc-section';
-const menu_ch_sel = '';
+const menu_ch_sel = '.classroom-toc-section__toggle-title';
 const menu_sub_sel = '';
 
-const chapters = menu.querySelectorAll('.classroom-toc-section__toggle-title');
+const menu_sections = menu.querySelectorAll(menu_sec_sel);
+console.log(menu_sections.length);
 
-// get sub-chapter vids
-[...chapters].forEach((ch, i) => {
-   console.log(ch.innerText);
+// get chapter vids
+[...menu_sections].forEach((sec, i) => {
+   //console.log(sec.innerText);
 
-   var subchaps = ch.querySelectorAll('.classroom-toc-item__title');
+   var chapter = sec.querySelector(menu_ch_sel);
+   console.log('~~~ ~~~ ~~~');
+   //console.log(chapters);
+
+   var subchaps = sec.querySelectorAll('.classroom-toc-item__title');
 
    [...subchaps].forEach((sub, j) => {
-       console.log(sub.innerText);
+       //console.log(sub.innerText);
+       var sub_txt = sub.innerText.split("(Viewed)")[0];
+       console.log(`[${sub_txt}]`);
    });
 });
