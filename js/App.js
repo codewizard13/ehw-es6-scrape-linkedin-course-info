@@ -34,6 +34,8 @@ Demonstrates:
 
 console.log("HELLO!   I'm in App.js");
 
+
+/*
 // get chapter vids
 const chapters = document.querySelectorAll('.classroom-toc-section__toggle-title');
 [...chapters].forEach((el, i) => {
@@ -46,4 +48,22 @@ console.log("~~~ ~~~ ~~~");
 const subchaps = document.querySelectorAll('.classroom-toc-item__title');
 [...subchaps].forEach((el, i) => {
    console.log(el.innerText);
+});
+*/
+const menu = document.querySelector('.classroom-layout__sidebar');
+const menu_sec_sel = '.classroom-toc-section';
+const menu_ch_sel = '';
+const menu_sub_sel = '';
+
+const chapters = menu.querySelectorAll('.classroom-toc-section__toggle-title');
+
+// get sub-chapter vids
+[...chapters].forEach((ch, i) => {
+   console.log(ch.innerText);
+
+   var subchaps = ch.querySelectorAll('.classroom-toc-item__title');
+
+   [...subchaps].forEach((sub, j) => {
+       console.log(sub.innerText);
+   });
 });
